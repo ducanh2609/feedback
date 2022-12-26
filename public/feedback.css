@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(84, 11, 153);
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.app > h1 {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: rgb(231, 41, 73);
+}
+
+.app-content {
+  padding-top: 30px;
+}
+
+.question {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.point-list {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.ques-content {
+  width: 100%;
+  text-align: center;
+}
+
+.point {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 10px;
+  background-color: rgba(189, 191, 193, 0.489);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.feedback-input {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 20px;
+  box-sizing: border-box;
+  margin: 0 20px;
+}
+
+.feedback {
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.send {
+  position: absolute;
+  height: 40px;
+  top: 5px;
+  right: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80px;
+  background-color: rgb(161, 158, 158);
+}
+.point:hover,
+.send:hover {
+  cursor: pointer;
+  background-color: rgb(245, 39, 183);
+}
+.editFb:hover,
+.deleteFb:hover {
+  cursor: pointer;
+}
+.err {
+  /* border: 1px solid; */
+  color: red;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.status {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+.fb-render {
+  /* border: 1px solid; */
+  top: 20px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.point-render {
+  position: relative;
+  top: 25px;
+  left: -10px;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(231, 57, 86);
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+.note-render {
+  min-height: 70px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 20px;
+}
+.fa-xmark {
+  position: relative;
+  top: -80px;
+  left: 95%;
+  color: blueviolet;
+}
+.fa-pen-to-square {
+  position: relative;
+  top: -80px;
+  left: 94%;
+  color: blueviolet;
+}
